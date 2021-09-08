@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagsInput Component cria o snapshot do component 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiTextField-root text_field"
+  >
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart"
+      data-testid="tags-input"
+    >
+      <div
+        class="MuiChip-root tags MuiChip-colorPrimary MuiChip-deletableColorPrimary MuiChip-deletable"
+        role="button"
+        style="margin: 3px;"
+        tabindex="-1"
+      >
+        <span
+          class="MuiChip-label"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+          />
+        </svg>
+      </div>
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+    style="height: 50px; margin: 20px 0px;"
+    tabindex="0"
+    title="submit"
+    type="button"
+    value="submit"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Enviar
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`TagsInput Component deve deletar a útima tag criada ao pressionar o botão de backspace 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiTextField-root text_field"
+  >
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth Mui-focused Mui-focused MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart"
+      data-testid="tags-input"
+    >
+      <div
+        class="MuiChip-root tags MuiChip-colorPrimary MuiChip-deletableColorPrimary MuiChip-deletable"
+        role="button"
+        style="margin: 3px;"
+        tabindex="-1"
+      >
+        <span
+          class="MuiChip-label"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiChip-root tags MuiChip-colorPrimary MuiChip-deletableColorPrimary MuiChip-deletable"
+        role="button"
+        style="margin: 3px;"
+        tabindex="-1"
+      >
+        <span
+          class="MuiChip-label"
+        >
+          teste@enter2.com
+        </span>
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+          />
+        </svg>
+      </div>
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+    style="height: 50px; margin: 20px 0px;"
+    tabindex="0"
+    title="submit"
+    type="button"
+    value="submit"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Enviar
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;

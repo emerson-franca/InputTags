@@ -1,0 +1,22 @@
+.MuiInputBase-root {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+
+  background: #fff !important;
+}
+
+.MuiInputBase-input {
+  padding: 10px;
+}
+
+.tags {
+  border-radius: inherit !important;
+  border-right: 6px solid #a5c7ea !important;
+}
+
+// decidi utilizar important ao invés do makeStyles
+// para diminuir a "poluição" no código
