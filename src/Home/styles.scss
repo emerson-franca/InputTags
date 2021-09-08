@@ -1,0 +1,16 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+
+  &__title {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #a2a2a2;
+  }
+
+  &__info {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #a2a2a2;
+  }
+}
